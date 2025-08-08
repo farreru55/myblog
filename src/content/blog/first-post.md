@@ -1,16 +1,43 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
+title: 'Menjaga Api Nasionalisme di Era Modern'
+description: 'Pentingnya nasionalisme'
 pubDate: 'Jul 08 2022'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/blog-placeholder-2.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Di zaman sekarang, kita hidup di tengah arus globalisasi yang membuat batas antarnegara terasa semakin tipis. Informasi, budaya, dan gaya hidup dari luar negeri dapat dengan mudah masuk ke Indonesia. Hal ini membawa banyak manfaat, tetapi juga tantangan besar: bagaimana caranya kita tetap mencintai dan membela tanah air di tengah derasnya pengaruh luar?
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Nasionalisme adalah rasa cinta terhadap negara dan bangsa. Ia bukan sekadar menghafal lagu kebangsaan atau berdiri tegak saat upacara, tetapi juga tercermin dari sikap sehari-hari. Nasionalisme berarti kita bangga menjadi orang Indonesia, mau menjaga keutuhan negeri, dan berkontribusi untuk kemajuan bersama.
+Mengapa Nasionalisme Penting?
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+    Menjaga Persatuan
+    Indonesia memiliki lebih dari 17.000 pulau, ratusan bahasa daerah, dan beragam budaya. Tanpa rasa persatuan, perbedaan ini bisa memicu perpecahan. Nasionalisme membuat kita sadar bahwa keberagaman adalah kekuatan.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+    Melindungi Kedaulatan
+    Rasa cinta tanah air mendorong kita untuk menjaga sumber daya alam, budaya, dan kedaulatan negara dari pihak yang ingin merugikan Indonesia.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+    Mendorong Kemajuan Bangsa
+    Warga yang memiliki rasa nasionalisme akan termotivasi untuk berprestasi dan membangun negeri, bukan sekadar untuk kepentingan pribadi.
+
+### Cara Menumbuhkan Nasionalisme di Era Modern
+
+    Mencintai Produk Lokal
+    Membeli dan mempromosikan produk buatan Indonesia membantu perekonomian bangsa dan memberdayakan pelaku usaha lokal.
+
+    Menghargai Budaya Sendiri
+    Mengenal tarian, lagu daerah, makanan khas, dan adat istiadat membuat kita bangga pada kekayaan budaya Indonesia.
+
+    Menggunakan Teknologi untuk Hal Positif
+    Media sosial dapat menjadi sarana untuk menyebarkan konten positif tentang Indonesia, bukan justru menyebarkan hoaks atau ujaran kebencian.
+
+    Berpartisipasi dalam Pembangunan
+    Kecil atau besar, setiap kontribusi kita—mulai dari menjaga lingkungan, menjadi relawan, hingga berinovasi—adalah bentuk cinta pada negeri.
+
+    Menjaga Toleransi
+Menghormati perbedaan agama, suku, dan pandangan adalah wujud nyata dari nasionalisme, karena Indonesia berdiri di atas persatuan dalam keberagaman.
+
+## Penutup
+
+Nasionalisme bukanlah sesuatu yang ketinggalan zaman. Justru di era modern, kita harus semakin kuat memegangnya agar tidak kehilangan jati diri sebagai bangsa. Menjadi nasionalis berarti tetap terbuka terhadap kemajuan dunia, tetapi tanpa melupakan akar budaya dan cinta tanah air.
+
+Seperti kata Bung Karno, “Bangsa yang besar adalah bangsa yang menghargai jasa pahlawannya.” Mari kita lanjutkan perjuangan mereka dengan menjadi generasi yang berprestasi, menjaga persatuan, dan membanggakan Indonesia di mata dunia.
