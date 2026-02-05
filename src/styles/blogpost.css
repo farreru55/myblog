@@ -1,0 +1,38 @@
+/* Modified styles for blogpost.css */
+main {
+    /* width: calc(100% - 2em); // Keep width as is */
+    max-width: 100%;
+    margin: 0 auto; /* Allow main to center if needed, but the content inside will be left-aligned */
+}
+
+.prose {
+    width: 720px;
+    max-width: calc(100% - 2em);
+    margin-left: 0; /* Ensure left alignment for the content block */
+    margin-right: auto;
+    padding: 1em;
+    color: rgb(var(--gray-dark));
+}
+
+.title {
+    margin-bottom: 1em;
+    padding: 1em 0;
+    text-align: left; /* Explicitly left align the title container */
+    line-height: 1;
+}
+
+.title h1 {
+    margin: 0 0 0.5em 0;
+    text-align: left; /* Explicitly left align the actual H1 title */
+}
+
+.date {
+    margin-bottom: 0.5em;
+    color: rgb(var(--gray));
+    text-align: left; /* Ensure date is also left-aligned */
+}
+
+.last-updated-on {
+    font-style: italic;
+    text-align: left; /* Ensure last updated is also left-aligned */
+}
