@@ -2,7 +2,6 @@
 title: 'Menjaga Api Nasionalisme di Era Modern'
 description: 'Pentingnya nasionalisme'
 pubDate: 'Jul 08 2022'
-heroImage: '../../assets/blog-placeholder-2.png'
 ---
 
 Di zaman sekarang, kita hidup di tengah arus globalisasi yang membuat batas antarnegara terasa semakin tipis. Informasi, budaya, dan gaya hidup dari luar negeri dapat dengan mudah masuk ke Indonesia. Hal ini membawa banyak manfaat, tetapi juga tantangan besar: bagaimana caranya kita tetap mencintai dan membela tanah air di tengah derasnya pengaruh luar?

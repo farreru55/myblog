@@ -2,7 +2,6 @@
 title: 'Bagaimana Awal Mula Kesadaran'
 description: 'Filosofi pikiran'
 pubDate: 'Aug 05 2025'
-heroImage: '../../assets/blog-placeholder-6.jpg'
 ---
 
 Kesadaran adalah salah satu misteri terbesar dalam hidup manusia. Ia seperti udara—kita merasakannya, kita hidup bersamanya, tetapi sulit menjelaskan bagaimana ia muncul. Pertanyaan tentang awal mula kesadaran telah menjadi bahan perdebatan para filsuf, ilmuwan, hingga seniman selama berabad-abad.
