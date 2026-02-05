@@ -1,130 +1,134 @@
 ---
-import { getCollection } from 'astro:content';
-import BaseHead from '../../components/BaseHead.astro';
-import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
-import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import Header from "../../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
 
-const posts = (await getCollection('blog')).sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-        <style>
-            /* --- Catppuccin Mocha Variables --- */
-            :root {
-                --base: #1e1e2e;
-                --surface0: #313244;
-                --surface1: #45475a;
-                --overlay0: #6c7086;
-                --text: #cdd6f4;
-                --lavender: #b4befe;
-                --blue: #89b4fa;
-            }
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      /* --- Catppuccin Mocha Variables --- */
+      :root {
+        --base: #1e1e2e;
+        --surface0: #313244;
+        --surface1: #45475a;
+        --overlay0: #6c7086;
+        --text: #cdd6f4;
+        --lavender: #b4befe;
+        --blue: #89b4fa;
+      }
 
-            main {
-                width: 960px;
-                max-width: calc(100% - 2em);
-                margin: auto;
-                padding: 3em 1em;
-            }
+      main {
+        width: 960px;
+        max-width: calc(100% - 2em);
+        margin: auto;
+        padding: 3em 1em;
+      }
 
-            ul {
-                display: flex;
-                flex-direction: column; /* Stack vertikal */
-                gap: 2rem;              /* Jarak antar kartu artikel */
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                width: 100%;
-            }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; /* Jarak antar kartu lebih rapat & rapi */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border: none !important; /* HAPUS BORDER DI UL */
+        background: transparent !important;
+      }
 
-            ul li {
-                width: 100%;
-                text-align: left;
-                border: 1px solid var(--surface0); /* Border per postingan */
-                border-radius: 12px;
-                transition: all 0.3s ease;
-                background-color: transparent;
-            }
+      ul li {
+        width: 100%;
+        border: 1px solid var(--surface0);
+        border-radius: 12px;
+        background-color: var(--base); /* Gunakan warna dasar Mocha */
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden; /* Pastikan konten tidak keluar dari sudut rounded */
+      }
 
-            ul li:hover {
-                border-color: var(--lavender);
-                background-color: var(--surface0);
-                transform: translateX(10px); /* Efek geser saat hover */
-            }
+      ul li:hover {
+        border-color: var(--lavender);
+        transform: translateX(6px);
+        background-color: var(--surface0);
+      }
 
-            /* Hilangkan dekorasi default template untuk post pertama */
-            ul li:first-child {
-                margin-bottom: 0;
-            }
-            ul li:first-child .title {
-                font-size: 1.5rem;
-            }
+      ul li a {
+        display: grid; /* Gunakan Grid untuk kontrol posisi */
+        grid-template-columns: 1fr auto; /* Judul kiri, sesuatu di kanan jika perlu */
+        align-items: center;
+        padding: 1.25rem 1.5rem;
+        text-decoration: none;
+      }
 
-            ul li a {
-                display: block;
-                padding: 1.5rem; /* Padding di dalam kartu */
-                text-decoration: none;
-            }
+      /* Hilangkan dekorasi default template untuk post pertama */
+      ul li:first-child {
+        margin-bottom: 0;
+      }
+      ul li:first-child .title {
+        font-size: 1.5rem;
+      }
 
-            .title {
-                margin: 0;
-                color: var(--text);
-                line-height: 1.2;
-                font-size: 1.5rem;
-                transition: color 0.2s ease;
-            }
+      .title {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--text);
+      }
 
-            .date {
-                margin: 0.5rem 0 0 0;
-                color: var(--overlay0);
-                font-size: 0.9rem;
-            }
+      .date {
+        margin: 0;
+        color: var(--overlay0);
+        font-family: monospace; /* Gaya tech-blog */
+        font-size: 0.85rem;
+      }
 
-            /* Efek warna saat hover */
-            ul li:hover .title {
-                color: var(--lavender);
-            }
+      /* Efek warna saat hover */
+      ul li:hover .title {
+        color: var(--lavender);
+      }
 
-            @media (max-width: 720px) {
-                main {
-                    padding: 1em;
-                }
-                ul {
-                    gap: 1rem;
-                }
-                ul li:hover {
-                    transform: none; /* Matikan efek geser di mobile */
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <Header />
-        <main>
-            <section>
-                <ul>
-                    {
-                        posts.map((post) => (
-                            <li>
-                                <a href={`/blog/${post.id}/`}>
-                                    <h4 class="title">{post.data.title}</h4>
-                                    <p class="date">
-                                        <FormattedDate date={post.data.pubDate} />
-                                    </p>
-                                </a>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </section>
-        </main>
-        <Footer />
-    </body>
+      @media (max-width: 720px) {
+        main {
+          padding: 1em;
+        }
+        ul {
+          gap: 1rem;
+        }
+        ul li:hover {
+          transform: none; /* Matikan efek geser di mobile */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <ul>
+          {
+            posts.map((post) => (
+              <li>
+                <a href={`/blog/${post.id}/`}>
+                  <h4 class="title">{post.data.title}</h4>
+                  <p class="date">
+                    <FormattedDate date={post.data.pubDate} />
+                  </p>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>

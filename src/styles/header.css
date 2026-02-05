@@ -28,12 +28,18 @@ header {
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
-	.social-links,
-	.social-links a {
-		display: flex;
-	}
-	@media (max-width: 720px) {
-		.social-links {
-			display: none;
-		}
-	}
+
+	/* Standar Ikon Sosial */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
