@@ -2,7 +2,6 @@
 title: 'Terciptanya Dunia Pikiran Manusia'
 description: 'Filosofi pikiran manusia'
 pubDate: 'Jul 15 2022'
-heroImage: '../../assets/blog-placeholder-3.png'
 ---
 
 Pernahkah kamu berhenti sejenak dan bertanya: “Mengapa aku bisa memikirkan sesuatu yang belum pernah kulihat?” atau “Bagaimana ide-ide muncul di kepalaku?”

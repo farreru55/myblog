@@ -2,7 +2,6 @@
 title: 'Ironi di Dalam Negeri Sendiri'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 22 2022'
-heroImage: '../../assets/blog-placeholder-4.jpg'
 ---
 
 Indonesia dikenal sebagai negeri yang kaya—tanahnya subur, lautnya luas, budayanya beragam. Dari Sabang sampai Merauke, kita punya segalanya untuk hidup makmur. Tapi di balik keindahan itu, ada kenyataan yang sering membuat hati kita perih: ironi yang terjadi di negeri sendiri.
